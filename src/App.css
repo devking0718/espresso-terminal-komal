@@ -1,0 +1,389 @@
+.Header .text-main-secondary.logo-title {
+  font-size: 34px !important;
+  font-family: Genos-Bold !important;
+  margin-left: 10px;
+}
+
+.Header .wallet-connect {
+  font-size: 24px !important;
+  font-family: Genos-Bold !important;
+  border-color: var(--main-content-color-secondary) !important;
+  color: var(--main-content-color-secondary) !important;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+/* Main Banner Style */
+.Main-banner .banner-title {
+  font-size: 6rem;
+  font-family: Genos-Bold !important;
+  color: var(--main-content-color-primary);
+  line-height: 5rem;
+}
+
+.Main-banner .banner-subtitle {
+  font-family: Genos-Bold !important;
+}
+
+/* Current wallet */
+.Current-wallet .current-wallet-card {
+  border-color: var(--main-content-color-primary) !important;
+  background-color: var(--main-background-color);
+  color: white;
+}
+
+.Current-wallet .current-wallet-card .card-title {
+  font-size: 2.5rem;
+  color: var(--main-content-color-primary);
+  font-family: Genos-Black !important;
+}
+
+.Current-wallet .current-wallet-card .card-text {
+  font-size: 1.5rem;
+  font-family: Genos-Bold !important;
+}
+
+/* Main tab */
+.Main-tab .nav-tabs li.nav-item button {
+  font-size: 1.5rem;
+  font-family: Genos-Bold !important;
+  background: none;
+  color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.Main-tab .nav-tabs li.nav-item button[aria-selected="true"].active {
+  font-size: 1.5rem;
+  font-family: Genos-Bold !important;
+  color: var(--main-content-color-primary);
+  border-color: var(--main-content-color-primary);
+  border-bottom-color: var(--main-background-color);
+}
+
+.Main-tab .nav-tabs li.nav-item button[aria-selected="true"]:hover {
+  border-color: var(--main-content-color-primary) !important;
+  border-bottom-color: var(--main-background-color) !important;
+}
+
+.Main-tab .nav-tabs li.nav-item button:hover {
+  border-color: transparent !important;
+  color: var(--main-content-color-primary);
+}
+
+.Main-tab .nav-tabs {
+  border: none;
+  margin-bottom: 0 !important;
+}
+
+.tab-pane {
+  border: 0.5px solid var(--main-content-color-primary);
+  border-top: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.tab-pane:nth-child(1) {
+  border-top-right-radius: 20px;
+  border-top: 1px solid var(--main-content-color-primary);
+}
+
+.tab-pane:nth-child(3) {
+  border-top-left-radius: 20px;
+  border-top: 1px solid var(--main-content-color-primary);
+}
+
+.tab-pane:nth-child(2) {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 1px solid var(--main-content-color-primary);
+}
+
+.tab-title {
+  font-size: 40px;
+  font-family: Genos-Bold !important;
+}
+
+.form-label {
+  font-size: 20px;
+  font-family: Genos-Bold !important;
+  color: var(--main-content-color-primary);
+}
+
+.input-group {
+  border-color: var(--main-content-color-primary) !important;
+}
+
+.input-group .form-control {
+  background: none;
+  border-color: var(--main-content-color-primary) !important;
+  color: white;
+  font-family: Genos-Bold !important;
+}
+
+.DeployTabContent input,
+.DeployTabContent button {
+  height: 50px;
+}
+
+.input-group .form-control:focus {
+  background: none;
+  outline: var(--main-content-color-primary);
+  color: white;
+}
+
+.input-group button {
+  border-color: var(--main-content-color-primary);
+  border-left: none;
+}
+
+.input-group button.show,
+.input-group button:active
+ {
+  background-color: var(--main-content-color-primary);
+}
+
+.input-group .dropdown-menu {
+  background: var(--main-background-color);
+  border-color: var(--main-content-color-primary);
+}
+
+.input-group .dropdown-menu .dropdown-item {
+  color: white;
+  font-family: Genos-Bold !important;
+}
+
+div[role="tooltip"] {
+  border: 1px solid var(--main-content-color-primary);
+  border-radius: 5px;
+  font-family: Genos-Regular !important;
+}
+
+div[role="tooltip"] .tooltip-arrow::before {
+  border-top-color: var(--main-content-color-primary) !important;
+  top: 0px !important;
+}
+
+/* Footer Style */
+.primary-hr {
+  border-width: 3px;
+  border-image: linear-gradient(to right, transparent, var(--main-content-color-primary), transparent) 1;
+  opacity: 1;
+}
+
+.secondary-hr {
+  border-width: 3px;
+  border-image: linear-gradient(to right, transparent, var(--main-content-color-secondary), transparent) 1;
+  opacity: 1;
+}
+
+.Footer .Footer-top .footer-section-title {
+  font-size: 28px;
+  font-family: Genos-Bold !important;
+  color: white;
+}
+
+.Footer .Footer-top .nav-link {
+  font-family: Genos-Regular !important;
+  font-size: 24px;
+}
+
+.Footer .Footer-bottom {
+  font-size: 16px;
+  font-family: Genos-Medium !important;
+}
+
+/* Button Style */
+.main-button,
+.SettingsTabContent .main-button {
+  border-color: var(--main-content-color-primary) !important;
+  color: var(--main-content-color-secondary) !important;
+  font-family: Genos-Bold !important;
+  background-image: linear-gradient(black 50%, var(--main-content-color-secondary) 90%) !important;
+  font-size: 20px !important;
+}
+
+/* Deployed Tokens */
+tbody tr td .accordion .accordion-item {
+  border: none;
+  border-bottom: 1px solid var(--main-content-color-primary);
+}
+
+tbody tr td .accordion .accordion-item button {
+  background: none !important;
+  border-radius: 0;
+}
+
+tbody tr td {
+  padding: 0 !important;
+}
+
+.DeployedTabContent .td-title {
+  font-family: Genos-Bold !important;
+}
+
+.DeployedTabContent .td-value {
+  color: white;
+}
+
+.DeployedTabContent table {
+  background: none;
+  font-family: Genos-Medium !important;
+  font-size: 20px;
+}
+
+.DeployedTabContent table .accordion-button::after {
+  filter: invert(1);
+}
+
+.DeployedTabContent table thead tr th {
+  background: none;
+  color: var(--main-content-color-primary);
+  border-bottom: 1px solid var(--main-content-color-primary);
+}
+
+.DeployedTabContent table tbody tr td .accordion .accordion-item,
+.DeployedTabContent table tbody tr td .accordion .accordion-item button {
+  background: transparent;
+  color: var(--main-content-color-primary);
+}
+
+.DeployedTabContent table tbody tr td .accordion .accordion-item:last-of-type {
+  border-radius: 0;
+}
+
+.DeployedTabContent table tbody tr td {
+  border-bottom: none;
+  background: none;
+}
+
+.DeployedTabContent table tbody tr td .accordion .accordion-body {
+  border-color: var(--main-content-color-primary);
+}
+
+.DeployedTabContent table tbody tr td .accordion {
+  background: transparent;
+}
+
+.DeployedTabContent table tbody tr td .accordion .accordion-button:not(.collapsed),
+.DeployedTabContent table tbody tr td .accordion .accordion-button:focus {
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--main-content-color-primary);
+}
+
+.DeployedTabContent table tbody tr td .accordion .accordion-item button span {
+  font-size: 16px;
+  font-family: Genos-Medium !important;
+  color: white;
+}
+
+/* Settings Tab Content */
+
+.SettingsTabContent .accordion .accordion-item {
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--main-content-color-primary) !important;
+}
+
+.SettingsTabContent .accordion .accordion-item button {
+  background: none;
+  color: var(--main-content-color-primary);
+  font-family: Genos-Bold !important;
+  font-size: 20px;
+}
+
+.SettingsTabContent .accordion .accordion-item button:not(.collapsed) {
+  border-bottom: 1px solid var(--main-content-color-primary);
+}
+
+.SettingsTabContent .accordion .accordion-item button:focus {
+  box-shadow: none;
+}
+
+.SettingsTabContent .accordion-item:last-of-type {
+  border-radius: 0;
+}
+
+.SettingsTabContent .accordion-button:not(.collapsed) {
+  box-shadow: none;
+  border-bottom: none;
+}
+
+.SettingsTabContent table tr th {
+  background: none;
+  border-bottom: 1px solid var(--main-content-color-primary);
+  color: var(--main-content-color-primary);
+  font-family: Genos-Bold !important;
+  font-size: 20px;
+}
+
+.SettingsTabContent table tr td {
+  background: none;
+  color: white;
+  font-family: Genos-Regular !important;
+  border-bottom: 1px solid #59beff36;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  font-size: 20px;
+}
+
+.SettingsTabContent table tr td input {
+  width: 20px;
+  height: 20px;
+  border-color: var(--main-content-color-primary);
+  background: var(--main-background-color) !important;
+}
+
+.form-check-input:checked[type=radio] {
+  background: white !important;
+  border-color: var(--main-content-color-primary);
+  border-width: 5px;
+  box-shadow: none;
+}
+
+.SettingsTabContent .accordion-body .link-to-terminal-description {
+  font-family: Genos-Regular !important;
+  color: white;
+  font-size: 20px;
+}
+
+.SettingsTabContent .accordion-body .link-to-terminal-key {
+  font-family: Genos-Medium !important;
+  color: white;
+  font-size: 20px;
+}
+
+.Main-tab {
+  background-image: url('./assets/images/bg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.setting-public-key input.form-control {
+  height: 40px !important;
+  width: 50%;
+  font-family: Genos-Regular !important;
+}
+
+@media screen and (max-width: 576px) {
+  .Main-banner .banner-title {
+    font-size: 4.5rem;
+    font-family: Genos-Bold !important;
+    color: var(--main-content-color-primary);
+    line-height: 5rem;
+  }
+  .Main-tab .nav-tabs li.nav-item button {
+    font-size: 0.8rem !important
+  }
+
+  .Main-tab .nav-tabs li.nav-item button[aria-selected="true"] {
+    font-size: 0.8rem !important
+  }
+}
+
+@media screen and (max-width: 768px) {  
+  .Main-tab .nav-tabs li.nav-item button {
+    font-size: 1rem;
+  }
+}

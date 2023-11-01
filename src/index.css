@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Genos-Regular;
+  src: url("./assets/fonts/Genos-Regular.ttf");
+}
+
+@font-face {
+  font-family: Genos-Medium;
+  src: url("./assets/fonts/Genos-Medium.ttf");
+}
+
+@font-face {
+  font-family: Genos-SemiBold;
+  src: url("./assets/fonts/Genos-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Genos-Bold;
+  src: url("./assets/fonts/Genos-Bold.ttf");
+}
+
+@font-face {
+  font-family: Genos-Black;
+  src: url("./assets/fonts/Genos-Black.ttf");
+}
+
+:root {
+  --main-background-color : #000000;
+  --main-content-color-primary : #59BEFF;
+  --main-content-color-secondary : #FF2FBE;
+}
+
+body {
+  background: var(--main-background-color) !important;
+  color: white !important;
+}
+
+.text-main-primary {
+  color: var(--main-content-color-primary) !important;
+}
+
+.text-main-secondary {
+  color: var(--main-content-color-secondary) !important;
+}
+
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
